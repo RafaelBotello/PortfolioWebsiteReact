@@ -23,7 +23,10 @@ const Languages = () => {
           </a>
         </div>
         <div className="image-container">
-          <a href="https://jerseyx-v2.netlify.com/" target="_blank">
+          <a
+            href="https://github.com/RafaelBotello/JerseyXecommerce-V2"
+            target="_blank"
+          >
             <h1>Jersey X v2</h1>
             <img
               src="https://files.slack.com/files-pri/T5VCY49B3-FPD09Q32S/image.png"

@@ -1,0 +1,51 @@
+.profile-picture {
+    margin-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('https://avatars3.githubusercontent.com/u/50276886?s=460&v=4');
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 250px;
+    border: #707070 0.2px solid;
+    border-radius: 50%;
+}
+
+.name-text {
+    margin-top: 20px;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: 350;
+    color: #FFFFFF;
+    font-style: italic;
+}
+
+.menu-link {
+    line-height: 50px;
+    font-size: 26px;
+    margin: 0px;
+    color: #A8A8A8;
+}
+
+.menu-link:hover {
+    color: #ffffff;
+}
+
+.active {
+    color: #efefef;
+    font-weight: bold;
+}
+
+.disabled {
+    color: #FFFFFF;
+    font-weight: 350;
+}
+
+.last-updated{
+    line-height: 50px;
+    font-size: 26px;
+    margin: 0px;
+    padding-top: 90px;
+    color: #A8A8A8;
+}

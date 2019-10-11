@@ -20,7 +20,41 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #282c34;
+}
+
+.fixed{
+  position: fixed;
+  background: #040303;
+  display: block;
+  height: 100vh;
+  width: auto;
+  padding: 35px;
+}
+
+.menu-container{
+  background: #040303;
+}
+
+.content-container{
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color:#F7F7FF;
+}
+
+.footer-row{
+  height: 20%;
+  border-top: 1.5px solid #707070;
+}
+
+hr {
+  height: 1.3px;
+  background-color: #ffffff;
+}
+
+.side-menu {
+  position: fixed;
 }
 
 @keyframes App-logo-spin {
@@ -31,3 +65,9 @@
     transform: rotate(360deg);
   }
 }
+
+/* Custom styles */
+/* 
+.Main-container{
+  margin: 0px;
+} */

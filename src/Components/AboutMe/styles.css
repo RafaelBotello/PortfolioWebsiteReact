@@ -1,0 +1,41 @@
+.aboutme-container {
+    height: 100vh;
+    width: auto;
+    overflow: hidden;
+}
+
+.title-text{
+    display: block;
+    color: #ffffff;
+    background-color: #3A4E48;
+    margin: 0px;
+    height: 10%;
+    padding: 10px;
+    font-size: 2.6rem;
+    font-style: italic;
+}
+
+.content-text{
+    color: #000000;
+    background-color: #F7F7FF;
+    height: 30%;
+    display: block;
+    padding: 20px 15px 30px 15px;
+    font-size: 1.5rem;
+    text-align: justify;
+    font-weight: 350;
+    line-height: 40px;
+}
+
+.content-img{
+    display: block;
+    margin-top: 100px;
+    padding: 0%;
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://images.unsplash.com/photo-1467767079704-1e5389c42c9e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2255&q=80);
+    background-position: center;
+    background-size: cover;
+}

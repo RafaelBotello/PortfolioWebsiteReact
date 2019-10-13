@@ -2,15 +2,7 @@ import React from "react";
 import Lorem from "../Lorem";
 import "./styles.css";
 import { Button, Form } from "react-bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faInstagram,
-  faFacebookF,
-  faYoutube,
-  faTwitter,
-  faGoogle,
-  faGithub
-} from "@fortawesome/free-brands-svg-icons";
+import SocialMedia from "./SocialMedia";
 
 const Contact = () => {
   return (
@@ -39,64 +31,7 @@ const Contact = () => {
           <Button variant="primary" type="submit">
             Submit
           </Button>
-          <div>
-            <a
-              href="https://github.com/rafaelbotello"
-              target="blank"
-              className="icon gplus-ic"
-            >
-              <FontAwesomeIcon
-                className="limit"
-                icon={faGithub}
-                color="#3D4B5B"
-                size="3x"
-              />
-            </a>
-            <a
-              href="https://facebook.com"
-              target="blank"
-              className="icon fb-ic"
-            >
-              <FontAwesomeIcon
-                className="limit"
-                icon={faFacebookF}
-                color="#3D4B5B"
-                size="3x"
-              />
-            </a>
-            <a href="https://twitter.com" target="blank" className="icon tw-ic">
-              <FontAwesomeIcon
-                className="limit"
-                icon={faTwitter}
-                color="#3D4B5B"
-                size="3x"
-              />
-            </a>
-            <a
-              href="https://www.instagram.com/jimmyplox/?hl=en"
-              target="blank"
-              className="icon ins-ic"
-            >
-              <FontAwesomeIcon
-                className="limit"
-                icon={faInstagram}
-                color="#3D4B5B"
-                size="3x"
-              />
-            </a>
-            <a
-              href="https://youtube.com"
-              target="blank"
-              className="icon pin-yt"
-            >
-              <FontAwesomeIcon
-                className="limit"
-                icon={faYoutube}
-                color="#3D4B5B"
-                size="3x"
-              />
-            </a>
-          </div>
+          <SocialMedia />
         </Form>
       </div>
     </div>

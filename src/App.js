@@ -3,7 +3,7 @@ import "./App.css";
 import { Container, Row, Col, Button } from "react-bootstrap/";
 import Menu from "./Components/Menu";
 import AboutMe from "./Components/AboutMe";
-import Languages from "./Components/Languages";
+import Projects from "./Components/Projects";
 import Contact from "./Components/Experience";
 
 function App() {
@@ -17,9 +17,9 @@ function App() {
             </div>
           </Col>
           <Col className="content-container" xl="9" lg="9" md="9">
-            <AboutMe></AboutMe>
-            <Contact></Contact>
-            <Languages></Languages>
+            <AboutMe />
+            <Projects />
+            <Contact />
           </Col>
         </Row>
       </Container>

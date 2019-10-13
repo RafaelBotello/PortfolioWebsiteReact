@@ -1,0 +1,11 @@
+.socialMedia-cont {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 20px;
+    padding: 15px;
+}
+
+.icon {
+    padding-left: 50px;
+}

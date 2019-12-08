@@ -7,7 +7,7 @@
 .projects-title-text{
     display: block;
     color: #ffffff;
-    background-color: #C6513C;
+    background-color: #000000;
     margin: 0px;
     height: 10%;
     padding: 10px;
@@ -16,15 +16,30 @@
 }
 
 .image-container{
+    position: relative;
     display: inline-block;
 }
 
 .text-img {
+    padding: 100px;
+    opacity: 0;
+    display: block;
     position: absolute;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+    transition: 1s ease;
+}
+
+.text-img:hover{
+    opacity: 1;
+}
 
 .images {
     display: block;

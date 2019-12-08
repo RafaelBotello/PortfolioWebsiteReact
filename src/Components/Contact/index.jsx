@@ -12,7 +12,7 @@ const Contact = () => {
         <hr />
       </h1>
       <div className="content-text">
-        <Form>
+        <Form action="mailto:rafaelbotellov@outlook.com?subject=Website%20Contact">
           <Form.Group controlId="formBasicEmail">
             <Form.Label>Email address</Form.Label>
             <Form.Control type="email" placeholder="Enter email" />
@@ -28,9 +28,10 @@ const Contact = () => {
             <Form.Label>Message: </Form.Label>
             <Form.Control as="textarea" rows="3" />
           </Form.Group>
-          <Button variant="primary" type="submit">
+          <Button className="form-button" variant="primary" type="submit">
             Submit
           </Button>
+          <p class>Follow my journey on social media!</p>
           <SocialMedia />
         </Form>
       </div>

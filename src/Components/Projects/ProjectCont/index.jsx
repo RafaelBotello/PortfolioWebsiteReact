@@ -9,7 +9,7 @@ const ProjectCont = props => {
           className="images"
           alt={props.imgDescription}
         ></img>
-        <p>{props.projectDescription}</p>
+        <p className={props.descriptionClass}>{props.projectDescription}</p>
       </a>
     </div>
   );

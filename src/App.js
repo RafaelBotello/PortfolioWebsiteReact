@@ -4,7 +4,7 @@ import { Container, Row, Col, Button } from "react-bootstrap/";
 import Menu from "./Components/Menu";
 import AboutMe from "./Components/AboutMe";
 import Projects from "./Components/Projects";
-import Contact from "./Components/Experience";
+import Contact from "./Components/Contact";
 
 function App() {
   return (

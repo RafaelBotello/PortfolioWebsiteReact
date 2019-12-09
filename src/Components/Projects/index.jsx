@@ -29,7 +29,7 @@ const Projects = () => {
           link="https://github.com/RafaelBotello/JerseyXecommerce-V3"
           imageUrl="https://files.slack.com/files-pri/T5VCY49B3-FNK4RD18B/image.png"
           imgDescription="Screenshot for Jersey X Ecommerce version 3 website"
-          projectDescription="Jersey X v3(Databases/Node/JSON)"
+          projectDescription="Jersey X v3(Databases/Node/JSON Ajax)"
           descriptionClass="text-img"
         />
         <ProjectCont

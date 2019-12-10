@@ -29,14 +29,14 @@ const Projects = () => {
           link="https://jerseyxw.herokuapp.com/"
           imageUrl="https://files.slack.com/files-pri/T5VCY49B3-FNK4RD18B/image.png"
           imgDescription="Screenshot for Jersey X Ecommerce version 3 website"
-          projectDescription="Jersey X(Databases/Node/JSON Ajax)"
+          projectDescription="Jersey X(React/Node/JSON Ajax)"
           descriptionClass="text-img"
         />
         <ProjectCont
           link="https://github.com/RafaelBotello/JerseyXadminApp"
           imageUrl="https://github.com/RafaelBotello/JerseyXadminApp/blob/master/img/home.png?raw=true"
           imgDescription="Screenshot for C# Admin website"
-          projectDescription="C# Admin app(c#)"
+          projectDescription="C# Admin app(c#/Databases)"
           descriptionClass="text-img"
         />
         <ProjectCont

@@ -12,10 +12,10 @@ const Projects = () => {
       </h2>
       <div className="content-text">
         <ProjectCont
-          link="https://rafaelbotello.github.io/JerseyXecommerce-V1/product.html"
-          imageUrl="https://files.slack.com/files-pri/T5VCY49B3-FPCVD54LW/image.png"
-          imgDescription="Screenshot for Jersey X Ecommerce website"
-          projectDescription="Jersey X v1(Semantic HTML/CSS)"
+          link="https://codepen.io/Rafaelbotello/project/full/AQGdvG"
+          imageUrl="https://files.slack.com/files-pri/T5VCY49B3-FRHEHBVT7/image.png"
+          imgDescription="Screenshot for Gateway website"
+          projectDescription="Gateway(Semantic HTML/CSS)"
           descriptionClass="text-img"
         />
         <ProjectCont
